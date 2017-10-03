@@ -1,0 +1,178 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$cart-bg-active-name: 'cart-bg-active';
+$cart-bg-active-x: 72px;
+$cart-bg-active-y: 50px;
+$cart-bg-active-offset-x: -72px;
+$cart-bg-active-offset-y: -50px;
+$cart-bg-active-width: 14px;
+$cart-bg-active-height: 9px;
+$cart-bg-active-total-width: 145px;
+$cart-bg-active-total-height: 90px;
+$cart-bg-active-image: '../img/spritesheet.png';
+$cart-bg-active: (72px, 50px, -72px, -50px, 14px, 9px, 145px, 90px, '../img/spritesheet.png', 'cart-bg-active', );
+$cart-bg-disable-name: 'cart-bg-disable';
+$cart-bg-disable-x: 51px;
+$cart-bg-disable-y: 50px;
+$cart-bg-disable-offset-x: -51px;
+$cart-bg-disable-offset-y: -50px;
+$cart-bg-disable-width: 16px;
+$cart-bg-disable-height: 9px;
+$cart-bg-disable-total-width: 145px;
+$cart-bg-disable-total-height: 90px;
+$cart-bg-disable-image: '../img/spritesheet.png';
+$cart-bg-disable: (51px, 50px, -51px, -50px, 16px, 9px, 145px, 90px, '../img/spritesheet.png', 'cart-bg-disable', );
+$cart-bg-name: 'cart-bg';
+$cart-bg-x: 91px;
+$cart-bg-y: 50px;
+$cart-bg-offset-x: -91px;
+$cart-bg-offset-y: -50px;
+$cart-bg-width: 14px;
+$cart-bg-height: 9px;
+$cart-bg-total-width: 145px;
+$cart-bg-total-height: 90px;
+$cart-bg-image: '../img/spritesheet.png';
+$cart-bg: (91px, 50px, -91px, -50px, 14px, 9px, 145px, 90px, '../img/spritesheet.png', 'cart-bg', );
+$choice-name: 'choice';
+$choice-x: 17px;
+$choice-y: 73px;
+$choice-offset-x: -17px;
+$choice-offset-y: -73px;
+$choice-width: 10px;
+$choice-height: 17px;
+$choice-total-width: 145px;
+$choice-total-height: 90px;
+$choice-image: '../img/spritesheet.png';
+$choice: (17px, 73px, -17px, -73px, 10px, 17px, 145px, 90px, '../img/spritesheet.png', 'choice', );
+$home-name: 'home';
+$home-x: 30px;
+$home-y: 50px;
+$home-offset-x: -30px;
+$home-offset-y: -50px;
+$home-width: 16px;
+$home-height: 15px;
+$home-total-width: 145px;
+$home-total-height: 90px;
+$home-image: '../img/spritesheet.png';
+$home: (30px, 50px, -30px, -50px, 16px, 15px, 145px, 90px, '../img/spritesheet.png', 'home', );
+$img-name: 'img';
+$img-x: 0px;
+$img-y: 0px;
+$img-offset-x: 0px;
+$img-offset-y: 0px;
+$img-width: 70px;
+$img-height: 45px;
+$img-total-width: 145px;
+$img-total-height: 90px;
+$img-image: '../img/spritesheet.png';
+$img: (0px, 0px, 0px, 0px, 70px, 45px, 145px, 90px, '../img/spritesheet.png', 'img', );
+$profile-name: 'profile';
+$profile-x: 0px;
+$profile-y: 73px;
+$profile-offset-x: 0px;
+$profile-offset-y: -73px;
+$profile-width: 12px;
+$profile-height: 17px;
+$profile-total-width: 145px;
+$profile-total-height: 90px;
+$profile-image: '../img/spritesheet.png';
+$profile: (0px, 73px, 0px, -73px, 12px, 17px, 145px, 90px, '../img/spritesheet.png', 'profile', );
+$sales-name: 'sales';
+$sales-x: 75px;
+$sales-y: 0px;
+$sales-offset-x: -75px;
+$sales-offset-y: 0px;
+$sales-width: 70px;
+$sales-height: 45px;
+$sales-total-width: 145px;
+$sales-total-height: 90px;
+$sales-image: '../img/spritesheet.png';
+$sales: (75px, 0px, -75px, 0px, 70px, 45px, 145px, 90px, '../img/spritesheet.png', 'sales', );
+$sandwich-light-name: 'sandwich-light';
+$sandwich-light-x: 0px;
+$sandwich-light-y: 50px;
+$sandwich-light-offset-x: 0px;
+$sandwich-light-offset-y: -50px;
+$sandwich-light-width: 25px;
+$sandwich-light-height: 18px;
+$sandwich-light-total-width: 145px;
+$sandwich-light-total-height: 90px;
+$sandwich-light-image: '../img/spritesheet.png';
+$sandwich-light: (0px, 50px, 0px, -50px, 25px, 18px, 145px, 90px, '../img/spritesheet.png', 'sandwich-light', );
+$spritesheet-width: 145px;
+$spritesheet-height: 90px;
+$spritesheet-image: '../img/spritesheet.png';
+$spritesheet-sprites: ($cart-bg-active, $cart-bg-disable, $cart-bg, $choice, $home, $img, $profile, $sales, $sandwich-light, );
+$spritesheet: (145px, 90px, '../img/spritesheet.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

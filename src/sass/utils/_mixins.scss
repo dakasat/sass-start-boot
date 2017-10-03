@@ -1,0 +1,70 @@
+
+
+@mixin respond-to($media) {
+    @if $media == wide {
+        @media only screen and (min-width: $small) {
+            @content;
+        }
+    }
+    @else if $media == tablet {                                           // SM ( < 1024px )
+        @media only screen and (max-width: $large - 1) {
+            @content;
+        }
+    } @else if $media == phone-lend {                                       // XS ( < 768px )
+        @media only screen and (max-width: $small - 1) {
+            @content;
+        }
+    } @else if $media == phone {                                            // ( < 568px )
+        @media only screen and (max-width: $x-small - 1) {
+            @content;
+        }
+    }
+}
+
+@mixin line-height($font, $line) {
+    line-height: $line * 1 / $font;
+}
+
+@mixin height($font, $height) {
+    height: $height * 1em / $font;
+}
+
+@mixin placeholder {
+    &:-moz-placeholder {
+        @content;
+    }
+    &::-moz-placeholder {
+        @content;
+    }
+    &::-webkit-input-placeholder {
+        @content;
+    }
+    &:-ms-input-placeholder {
+        @content;
+    }
+}
+
+@mixin col($width, $cols, $padding: 15) {
+    flex-basis: $width * 100% / $cols;
+    max-width: $width * 100% / $cols;
+    padding-left: $padding + px;
+    padding-right: $padding + px;
+    flex-shrink: 0;
+    flex-grow: 0;
+
+}
+
+@mixin sprite-center($sprite) {
+    top: 50%;
+    left: 50%;
+    margin-left: -(nth($sprite, 5)) / 2;
+    margin-top: -(nth($sprite, 6)) / 2;
+    @include sprite($sprite);
+}
+
+@mixin sprite-center-top($sprite) {
+    top: 50%;
+    margin-top: -(nth($sprite, 6)) / 2;
+    @include sprite($sprite);
+}
+

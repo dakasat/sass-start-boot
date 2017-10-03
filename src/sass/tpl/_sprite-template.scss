@@ -1,0 +1,10 @@
+{{#shapes}}
+${{name}}-name: '{{name}}';
+${{name}}-offset-x: {{position.absolute.x}}px;
+${{name}}-offset-y: {{position.absolute.y}}px;
+${{name}}-width: {{width.inner}}px;
+${{name}}-height: {{height.inner}}px;
+${{name}}-image: '../img/sprite.svg';
+
+${{name}}: (0,0,{{position.absolute.x}}px, {{position.absolute.y}}px, {{width.inner}}px, {{height.inner}}px,0,0, '../img/sprite.svg', '{{name}}', );
+{{/shapes}}

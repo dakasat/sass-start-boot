@@ -1,0 +1,184 @@
+$arrow-next-name: 'arrow-next';
+$arrow-next-offset-x: 0px;
+$arrow-next-offset-y: 0px;
+$arrow-next-width: 10px;
+$arrow-next-height: 13px;
+$arrow-next-image: '../img/sprite.svg';
+
+$arrow-next: (0,0,0px, 0px, 10px, 13px,0,0, '../img/sprite.svg', 'arrow-next', );
+$arrow-prev-name: 'arrow-prev';
+$arrow-prev-offset-x: -10px;
+$arrow-prev-offset-y: -13px;
+$arrow-prev-width: 9px;
+$arrow-prev-height: 13px;
+$arrow-prev-image: '../img/sprite.svg';
+
+$arrow-prev: (0,0,-10px, -13px, 9px, 13px,0,0, '../img/sprite.svg', 'arrow-prev', );
+$caret-name: 'caret';
+$caret-offset-x: -19px;
+$caret-offset-y: -26px;
+$caret-width: 12.12px;
+$caret-height: 8.18px;
+$caret-image: '../img/sprite.svg';
+
+$caret: (0,0,-19px, -26px, 12.12px, 8.18px,0,0, '../img/sprite.svg', 'caret', );
+$caret-light-name: 'caret-light';
+$caret-light-offset-x: -32px;
+$caret-light-offset-y: -35px;
+$caret-light-width: 12.09px;
+$caret-light-height: 8.17px;
+$caret-light-image: '../img/sprite.svg';
+
+$caret-light: (0,0,-32px, -35px, 12.09px, 8.17px,0,0, '../img/sprite.svg', 'caret-light', );
+$caret-small-name: 'caret-small';
+$caret-small-offset-x: -45px;
+$caret-small-offset-y: -44px;
+$caret-small-width: 12.12px;
+$caret-small-height: 8.18px;
+$caret-small-image: '../img/sprite.svg';
+
+$caret-small: (0,0,-45px, -44px, 12.12px, 8.18px,0,0, '../img/sprite.svg', 'caret-small', );
+$cart-name: 'cart';
+$cart-offset-x: -58px;
+$cart-offset-y: -53px;
+$cart-width: 24px;
+$cart-height: 24px;
+$cart-image: '../img/sprite.svg';
+
+$cart: (0,0,-58px, -53px, 24px, 24px,0,0, '../img/sprite.svg', 'cart', );
+$cart-light-name: 'cart-light';
+$cart-light-offset-x: -82px;
+$cart-light-offset-y: -77px;
+$cart-light-width: 18px;
+$cart-light-height: 17px;
+$cart-light-image: '../img/sprite.svg';
+
+$cart-light: (0,0,-82px, -77px, 18px, 17px,0,0, '../img/sprite.svg', 'cart-light', );
+$checkbox-name: 'checkbox';
+$checkbox-offset-x: -100px;
+$checkbox-offset-y: -94px;
+$checkbox-width: 36px;
+$checkbox-height: 36px;
+$checkbox-image: '../img/sprite.svg';
+
+$checkbox: (0,0,-100px, -94px, 36px, 36px,0,0, '../img/sprite.svg', 'checkbox', );
+$close-name: 'close';
+$close-offset-x: -136px;
+$close-offset-y: -130px;
+$close-width: 17px;
+$close-height: 17px;
+$close-image: '../img/sprite.svg';
+
+$close: (0,0,-136px, -130px, 17px, 17px,0,0, '../img/sprite.svg', 'close', );
+$close-light-name: 'close-light';
+$close-light-offset-x: -153px;
+$close-light-offset-y: -147px;
+$close-light-width: 23px;
+$close-light-height: 23px;
+$close-light-image: '../img/sprite.svg';
+
+$close-light: (0,0,-153px, -147px, 23px, 23px,0,0, '../img/sprite.svg', 'close-light', );
+$k3fon-name: 'k3fon';
+$k3fon-offset-x: -176px;
+$k3fon-offset-y: -170px;
+$k3fon-width: 52px;
+$k3fon-height: 50.1px;
+$k3fon-image: '../img/sprite.svg';
+
+$k3fon: (0,0,-176px, -170px, 52px, 50.1px,0,0, '../img/sprite.svg', 'k3fon', );
+$login-name: 'login';
+$login-offset-x: -228px;
+$login-offset-y: -221px;
+$login-width: 12px;
+$login-height: 17px;
+$login-image: '../img/sprite.svg';
+
+$login: (0,0,-228px, -221px, 12px, 17px,0,0, '../img/sprite.svg', 'login', );
+$logo-name: 'logo';
+$logo-offset-x: -240px;
+$logo-offset-y: -238px;
+$logo-width: 41px;
+$logo-height: 33px;
+$logo-image: '../img/sprite.svg';
+
+$logo: (0,0,-240px, -238px, 41px, 33px,0,0, '../img/sprite.svg', 'logo', );
+$logout-name: 'logout';
+$logout-offset-x: -281px;
+$logout-offset-y: -271px;
+$logout-width: 25px;
+$logout-height: 18px;
+$logout-image: '../img/sprite.svg';
+
+$logout: (0,0,-281px, -271px, 25px, 18px,0,0, '../img/sprite.svg', 'logout', );
+$ok-name: 'ok';
+$ok-offset-x: -306px;
+$ok-offset-y: -289px;
+$ok-width: 21px;
+$ok-height: 16px;
+$ok-image: '../img/sprite.svg';
+
+$ok: (0,0,-306px, -289px, 21px, 16px,0,0, '../img/sprite.svg', 'ok', );
+$ok-light-name: 'ok-light';
+$ok-light-offset-x: -327px;
+$ok-light-offset-y: -305px;
+$ok-light-width: 18.41px;
+$ok-light-height: 14.12px;
+$ok-light-image: '../img/sprite.svg';
+
+$ok-light: (0,0,-327px, -305px, 18.41px, 14.12px,0,0, '../img/sprite.svg', 'ok-light', );
+$password-name: 'password';
+$password-offset-x: -346px;
+$password-offset-y: -320px;
+$password-width: 18px;
+$password-height: 10px;
+$password-image: '../img/sprite.svg';
+
+$password: (0,0,-346px, -320px, 18px, 10px,0,0, '../img/sprite.svg', 'password', );
+$phone-name: 'phone';
+$phone-offset-x: -364px;
+$phone-offset-y: -330px;
+$phone-width: 28.96px;
+$phone-height: 28.99px;
+$phone-image: '../img/sprite.svg';
+
+$phone: (0,0,-364px, -330px, 28.96px, 28.99px,0,0, '../img/sprite.svg', 'phone', );
+$plus-name: 'plus';
+$plus-offset-x: -393px;
+$plus-offset-y: -359px;
+$plus-width: 9px;
+$plus-height: 9px;
+$plus-image: '../img/sprite.svg';
+
+$plus: (0,0,-393px, -359px, 9px, 9px,0,0, '../img/sprite.svg', 'plus', );
+$quality-name: 'quality';
+$quality-offset-x: -402px;
+$quality-offset-y: -368px;
+$quality-width: 53px;
+$quality-height: 51px;
+$quality-image: '../img/sprite.svg';
+
+$quality: (0,0,-402px, -368px, 53px, 51px,0,0, '../img/sprite.svg', 'quality', );
+$sandwich-name: 'sandwich';
+$sandwich-offset-x: -455px;
+$sandwich-offset-y: -419px;
+$sandwich-width: 25px;
+$sandwich-height: 18px;
+$sandwich-image: '../img/sprite.svg';
+
+$sandwich: (0,0,-455px, -419px, 25px, 18px,0,0, '../img/sprite.svg', 'sandwich', );
+$search-name: 'search';
+$search-offset-x: -480px;
+$search-offset-y: -437px;
+$search-width: 17px;
+$search-height: 19px;
+$search-image: '../img/sprite.svg';
+
+$search: (0,0,-480px, -437px, 17px, 19px,0,0, '../img/sprite.svg', 'search', );
+$show-pass-name: 'show-pass';
+$show-pass-offset-x: -497px;
+$show-pass-offset-y: -456px;
+$show-pass-width: 20px;
+$show-pass-height: 16px;
+$show-pass-image: '../img/sprite.svg';
+
+$show-pass: (0,0,-497px, -456px, 20px, 16px,0,0, '../img/sprite.svg', 'show-pass', );

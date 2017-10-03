@@ -1,0 +1,48 @@
+// Подключение библиотек
+@import "../../node_modules/normalize.css/normalize";
+
+
+// Вспомогательные файлы, так же то что генерируется галпом
+@import "utils/variables";
+@import "utils/sprite";
+@import "utils/spriteSvg";
+@import "utils/mixins";
+@import "utils/helpers";
+@import "utils/fonts";
+
+
+// Подключение файлов из папки elements
+//@import "elements/button";
+//@import "elements/checkbox";
+//@import "elements/additionally";
+//@import "elements/input";
+//@import "elements/radio";
+
+
+// Подключение файлов из папки blocks
+//@import "blocks/header";
+//@import "blocks/footer";
+//@import "blocks/main";
+//@import "blocks/rooms";
+//@import "blocks/calc";
+//@import "blocks/advantages";
+//@import "blocks/specialist";
+//@import "blocks/testimonials";
+//@import "blocks/slider";
+//@import "blocks/faq";
+//@import "blocks/contacts";
+//@import "blocks/mobile";
+//@import "blocks/mobile-menu";
+//@import "blocks/calculator";
+//@import "blocks/parameters";
+//@import "blocks/order";
+//@import "blocks/personal";
+//@import "blocks/payment";
+//@import "blocks/cabinet";
+//@import "blocks/planned";
+//@import "blocks/edit";
+//@import "blocks/data";
+//@import "blocks/modal";
+
+// Подключение основных файлов
+@import "main";
