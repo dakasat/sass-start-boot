@@ -23,7 +23,8 @@
     "gulp-watch": "^4.3.11",
     "gulp.spritesmith": "^6.3.0",
     "imagemin-pngquant": "^5.0.0",
-    "normalize.css": "^5.0.0"
+    "normalize.css": "^5.0.0",
+    "bootstrap": "^3.3.7"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
